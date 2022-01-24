@@ -1,3 +1,27 @@
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kanit:wght@300&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 130%;
+}
+
+h1 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+#navbar {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+/* Structural CSS */
+
+
+/* Media queries */
