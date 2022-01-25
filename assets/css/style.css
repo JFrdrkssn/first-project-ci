@@ -11,20 +11,20 @@ p {
 
 h1 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 300%;
+    font-size: 320%;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 h2 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 180%;
+    font-size: 210%;
     color: #f3eaea
 }
 
 #navbar {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 200%;
+    font-size: 230%;
 }
 
 /* General CSS */
@@ -83,11 +83,11 @@ body {
 /* Photo by Sourav Mishra from Pexels */
 .hero-image {
     background-image: url('../images/motorcycle.jpeg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    /* overflow: hidden; */
+    overflow: hidden;
     border: 1px rgba(0, 0, 0, 0);
     border-radius: 15px;
     display: flex;
