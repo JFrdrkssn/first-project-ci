@@ -85,7 +85,7 @@ body {
     background-image: url('../images/motorcycle.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     overflow: hidden;
     border: 1px rgba(0, 0, 0, 0);
@@ -99,14 +99,11 @@ body {
 }
 
 .text-center {
-    background-color: rgba(8, 8, 8, 0.6);
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 15px;
     text-align: center;
     clear: both;
     padding: 32px 32px;
     align-items: center;
-    margin: 5%;
+    margin-top: 25%;
 }
 
 /* Media queries */
