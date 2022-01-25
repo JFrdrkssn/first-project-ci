@@ -6,7 +6,7 @@ p {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 140%;
     color: #f3eaea;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h2 {
     font-size: 200%;
 }
 
-/* Structural CSS */
+/* General CSS */
 
 * {
     margin: 0;
@@ -37,6 +37,9 @@ h2 {
 body {
     background-color: #222;
 }
+
+
+/* Header and navbar */
 
 .header-container {
     display: flex;
@@ -50,6 +53,7 @@ body {
 #logo {
     margin: 16px 16px;
     color: #f3eaea;
+    padding: 0 16px;
 }
 
 #navbar {
@@ -74,5 +78,18 @@ body {
     color: #f3eaea;
 }
 
+/* Main section */
+
+.hero-image {
+    background-image: url('../images/nick-mercer-nLNCcSLcj5I-unsplash.jpeg');
+    background-size: cover;
+    border: 1px rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    width: 1200px;
+    height: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
 
 /* Media queries */
