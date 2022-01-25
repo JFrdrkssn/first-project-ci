@@ -82,7 +82,7 @@ body {
 
 /* Photo by Sourav Mishra from Pexels */
 .hero-image {
-    background-image: url('../images/motorcycle.jpeg');
+    background-image: url('../images/motorcycle.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
