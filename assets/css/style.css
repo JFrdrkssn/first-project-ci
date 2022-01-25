@@ -1,27 +1,78 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow+Condensed:wght@200;300&display=swap');
 
-body {
-    font-family: 'Kanit', sans-serif;
-    font-size: 130%;
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 140%;
+    color: #f3eaea;
+    font-weight: 300;
 }
 
 h1 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 200%;
+    font-size: 300%;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 h2 {
     font-family: 'Amatic SC', sans-serif;
+    font-size: 180%;
+    color: #f3eaea
 }
 
 #navbar {
     font-family: 'Amatic SC', sans-serif;
+    font-size: 200%;
 }
 
 /* Structural CSS */
+
+* {
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #222;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 2.5rem);
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#logo {
+    margin: 16px 16px;
+    color: #f3eaea;
+}
+
+#navbar {
+    margin: 16px;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    color: #f3eaea;
+    text-align: center;
+    padding: 16px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #f3eaea;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+    color: #f3eaea;
+}
 
 
 /* Media queries */
