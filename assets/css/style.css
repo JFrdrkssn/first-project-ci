@@ -4,27 +4,27 @@
 
 p {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 32px;
+    font-size: 160%;
     color: #f3eaea;
     font-weight: 200;
 }
 
 h1 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 74px;
+    font-size: 380%;
     text-transform: uppercase;
     font-weight: 400;
 }
 
 h2 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 52px;
+    font-size: 260%;
     color: #f3eaea
 }
 
 #navbar {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 54px;
+    font-size: 280%;
 }
 
 .contact-info {
@@ -35,6 +35,7 @@ h2 {
 
 * {
     margin: 0;
+    padding: 0;
     text-decoration: none;
 }
 
@@ -132,8 +133,9 @@ body {
 
 .contact-info * {
     color: #f3eaea;
-    font-size: 1.2em;
+    font-size: 1.1em;
     letter-spacing: 0.3em;
+    list-style-type: none;
 }
 
 .contact-info a:hover {
