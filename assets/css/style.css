@@ -19,7 +19,8 @@ h1 {
 h2 {
     font-family: 'Amatic SC', sans-serif;
     font-size: 260%;
-    color: #f3eaea
+    color: #f3eaea;
+    font-weight: 400;
 }
 
 #navbar {
@@ -86,7 +87,7 @@ body {
     color: rgb(27, 27, 27);
 }
 
-/* Main section */
+/* Main content on home page */
 
 /* Photo by Sourav Mishra from Pexels */
 .hero-image {
@@ -116,6 +117,43 @@ body {
     align-items: center;
     width: 960px;
     margin-top: 8rem;
+}
+
+/* Garage image and content */
+
+/* Photo by cottonbro from Pexels */
+.garage-image {
+    background-image: url('../images/garage.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    overflow: hidden;
+    border: 1px rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: top;
+    margin: 0 auto;
+    justify-content: left;
+}
+
+.content-position {
+    margin: 4% 6%;
+    width: 100%;
+}
+
+.text-left {
+    background-color: rgba(8, 8, 8, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    text-align: left;
+    clear: both;
+    padding: 24px 30px;
+    align-items: center;
+    width: 960px;
+    margin-top: 2%;
 }
 
 /* Footer */
