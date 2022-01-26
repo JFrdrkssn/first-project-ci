@@ -4,27 +4,27 @@
 
 p {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 140%;
+    font-size: 32px;
     color: #f3eaea;
     font-weight: 200;
 }
 
 h1 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 320%;
+    font-size: 74px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h2 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 210%;
+    font-size: 52px;
     color: #f3eaea
 }
 
 #navbar {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 230%;
+    font-size: 54px;
 }
 
 /* General CSS */
