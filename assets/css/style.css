@@ -126,6 +126,19 @@ body {
     height: 100px;
 }
 
+.contact-info {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.contact-info a {
+    color: #f3eaea;
+}
+
+.social-networks {
+    padding: 0;
+    margin-top: 10px;
+}
+
 .social-networks>li {
     display: inline;
     padding: 10px 44px;
