@@ -90,6 +90,11 @@ body {
     color: rgb(27, 27, 27);
 }
 
+#navbar a.active {
+    border-bottom: 2px solid #f3eaea;
+    border-radius: 3px;
+}
+
 /* Main content on home page */
 
 /* Photo by Sourav Mishra from Pexels */
@@ -210,6 +215,8 @@ body {
 /* Media queries */
 
 @media screen and (max-width: 1200px) {
+
+
     .garage-image {
         background-image: url('../images/garage1200.webp');
     }
