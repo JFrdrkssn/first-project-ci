@@ -189,6 +189,38 @@ body {
     transform: scale(1.05);
 }
 
+.submit-button {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 300;
+    margin: 15px 10px 0 0;
+    text-align: center;
+    color: rgb(27, 27, 27);
+    background-color: #f3eaea;
+    border: 3px solid #f3eaea;
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    transform: scale(1.05);
+}
+
+.reset-button {
+    font-family: inherit;
+    font-size: 90%;
+    font-weight: 300;
+    margin: 15px 10px 0 0;
+    text-align: center;
+    color: #f3eaea;
+    background-color: rgb(27, 27, 27);
+    border: 3px solid rgb(27, 27, 27);
+    border-radius: 5px;
+}
+
+.reset-button:hover {
+    transform: scale(1.05);
+}
+
 /* Garage page */
 
 /* Photo by cottonbro from Pexels */
