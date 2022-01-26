@@ -170,6 +170,25 @@ body {
     color: #f3eaea;
 }
 
+.text-input {
+    background-color: rgba(243, 234, 234, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 80%;
+}
+
+.text-input:hover {
+    border-color: #f3eaea;
+    transition: 150ms ease-in-out;
+    transform: scale(1.05);
+}
+
+.text-input:focus {
+    outline: rgb(27, 27, 27);
+    transform: scale(1.05);
+}
+
 /* Garage page */
 
 /* Photo by cottonbro from Pexels */
