@@ -112,11 +112,12 @@ body {
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 15px;
     text-align: center;
-    clear: both;
-    padding: 24px 0;
+    padding: 24px 30px;
     align-items: center;
-    width: 960px;
-    margin-top: 8rem;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 8%;
+    display: inline-block;
 }
 
 /* Garage image and content */
@@ -149,10 +150,10 @@ body {
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 15px;
     text-align: left;
-    clear: both;
     padding: 24px 30px;
     align-items: center;
-    width: 960px;
+    width: 50%;
+    height: fit-content;
     margin-top: 2%;
 }
 
