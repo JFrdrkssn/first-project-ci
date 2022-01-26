@@ -126,4 +126,19 @@ body {
     height: 100px;
 }
 
+.social-networks>li {
+    display: inline;
+    padding: 10px 44px;
+}
+
+.social-networks i {
+    color: #f3eaea;
+    font-size: 32px;
+}
+
+.social-networks i:hover {
+    transition: 200ms;
+    color: rgb(255, 255, 255);
+}
+
 /* Media queries */
