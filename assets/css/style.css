@@ -312,8 +312,27 @@ body {
 
 }
 
-/* Smaller background images and text */
+/* Smaller background images, navbar and text */
 @media only screen and (max-width: 764px) {
+    .header-wrapper {
+        font-size: 85%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #logo {
+        margin: 0 auto
+    }
+
+    #navbar {
+        margin-top: 0;
+    }
+
+    #navbar li {
+        padding-top: 0;
+    }
+
     .hero-image {
         background-image: url('../images/motorcycle-small.jpeg');
     }
@@ -346,7 +365,7 @@ body {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 438px) {
 
     .text-center,
     .text-left,
