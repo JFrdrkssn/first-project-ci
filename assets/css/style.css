@@ -83,7 +83,7 @@ body {
     border-radius: 15px;
     text-align: center;
     padding: 24px 30px;
-    width: 50%;
+    width: fit-content;
     height: fit-content;
     margin: 2% 0;
 }
@@ -171,7 +171,7 @@ body {
 }
 
 .text-input {
-    background-color: rgba(243, 234, 234, 0.7);
+    background-color: rgba(243, 234, 234, 0.8);
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     font-family: inherit;
@@ -288,7 +288,9 @@ body {
 /* Media queries */
 
 @media screen and (max-width: 1200px) {
-
+    .text-center {
+        width: 95%;
+    }
 
     .garage-image {
         background-image: url('../images/garage1200.webp');
@@ -305,7 +307,11 @@ body {
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 600px) {
+    .text-center {
+        width: 95%;
+    }
+
     .text-left {
         width: 100%;
         font-size: 50%;
