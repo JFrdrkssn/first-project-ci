@@ -346,7 +346,14 @@ body {
     }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 414px) {
+
+    .text-center,
+    .text-left,
+    .form {
+        font-size: 70%;
+    }
+
     .footer-wrapper {
         font-size: 55%;
     }
