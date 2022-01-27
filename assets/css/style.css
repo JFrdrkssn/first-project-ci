@@ -314,7 +314,6 @@ body {
     }
 
     .text-left {
-        flex: 1 0 auto;
         font-size: 75%;
     }
 
@@ -327,6 +326,7 @@ body {
 @media screen and (max-width: 600px) {
     .text-center {
         width: 95%;
+        height: fit-content;
     }
 
     .text-left {
