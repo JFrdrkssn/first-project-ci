@@ -188,14 +188,14 @@ body {
 }
 
 .submit-button {
-    font-family: inherit;
-    font-size: 100%;
-    font-weight: 300;
-    margin: 10px 10px 0 5px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 120%;
+    font-weight: 400;
+    margin: 10px 10px 0 10px;
     text-align: center;
     color: rgb(27, 27, 27);
-    background-color: #f3eaea;
-    border: 3px solid #f3eaea;
+    background-color: #8f2f2f;
+    border: 3px solid #8f2f2f;
     border-radius: 5px;
 }
 
@@ -203,20 +203,34 @@ body {
     transform: scale(1.05);
 }
 
-.reset-button {
-    font-family: inherit;
-    font-size: 90%;
-    font-weight: 300;
-    margin: 20px 10px 0 5px;
-    text-align: center;
+.submit-button:active {
     color: #f3eaea;
     background-color: rgb(27, 27, 27);
     border: 3px solid rgb(27, 27, 27);
     border-radius: 5px;
 }
 
+.reset-button {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 120%;
+    font-weight: 400;
+    margin: 20px 10px 0 5px;
+    text-align: center;
+    color: rgb(27, 27, 27);
+    background-color: #f3eaea;
+    border: 3px solid #f3eaea;
+    border-radius: 5px;
+}
+
 .reset-button:hover {
     transform: scale(1.05);
+}
+
+.reset-button:active {
+    color: #f3eaea;
+    background-color: rgb(27, 27, 27);
+    border: 3px solid rgb(27, 27, 27);
+    border-radius: 5px;
 }
 
 /* Garage page */
