@@ -55,7 +55,7 @@ body {
 }
 
 .text-left {
-    background-color: rgba(8, 8, 8, 0.8);
+    background-color: rgba(8, 8, 8, 0.9);
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 15px;
     text-align: left;
@@ -76,7 +76,7 @@ body {
 }
 
 .text-center {
-    background-color: rgba(8, 8, 8, 0.8);
+    background-color: rgba(8, 8, 8, 0.9);
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 15px;
     text-align: center;
@@ -147,10 +147,11 @@ body {
     width: 100%;
     align-items: flex-start;
     margin: 0 auto;
+    justify-content: space-around;
 }
 
 .form {
-    background-color: rgba(8, 8, 8, 0.8);
+    background-color: rgba(8, 8, 8, 0.9);
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 15px;
     text-align: center;
@@ -253,7 +254,7 @@ body {
 /* Footer */
 
 .footer-wrapper {
-    background-color: rgba(27, 27, 27, 0.6);
+    background-color: rgb(27, 27, 27);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -305,29 +306,30 @@ body {
         width: 95%;
     }
 
-    .text-left {
-        font-size: 75%;
-    }
-
     .footer-wrapper {
         font-size: 90%;
     }
 
 }
 
-/* Smaller background images */
-@media only screen and (max-width: 767px) {
+/* Smaller background images and text */
+@media only screen and (max-width: 764px) {
     .hero-image {
         background-image: url('../images/motorcycle-small.jpeg');
     }
-}
 
-/* Tablets */
-@media screen and (max-width: 600px) {
-    .text-center {
-        width: 100%;
+    .text-center,
+    .text-left {
+        font-size: 85%;
     }
 
+    .form {
+        font-size: 80%;
+    }
+}
+
+/* Breakpoint */
+@media screen and (max-width: 600px) {
     .text-left {
         width: 100%;
     }
