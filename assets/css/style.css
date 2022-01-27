@@ -333,8 +333,19 @@ body {
         padding-top: 0;
     }
 
+    /* Photo by Sourav Mishra from Pexels */
     .hero-image {
-        background-image: url('../images/motorcycle-small.jpeg');
+        background-image: url('../images/motorcycle-small.webp');
+    }
+
+    /* Photo by cottonbro from Pexels */
+    .garage-image {
+        background-image: url('../images/garage-small.webp');
+    }
+
+    /* Photo by Chris Henry from Unsplash */
+    .ride-image {
+        background-image: url('../images/ride-small.webp');
     }
 
     .text-center,
