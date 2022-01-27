@@ -52,10 +52,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    align-items: left;
 }
 
-/* not used right now */
 .text-left {
     background-color: rgba(8, 8, 8, 0.8);
     border: 1px solid rgba(0, 0, 0, 0);
@@ -301,14 +299,10 @@ body {
 
 /* Media queries */
 
-/* Smaller desktop and laptop */
+/* Desktop and laptop */
 @media screen and (max-width: 1200px) {
     .text-center {
         width: 95%;
-    }
-
-    .garage-image {
-        background-image: url('../images/garage1200.webp');
     }
 
     .text-left {
@@ -319,6 +313,13 @@ body {
         font-size: 90%;
     }
 
+}
+
+/* Smaller background images */
+@media only screen and (max-width: 767px) {
+    .hero-image {
+        background-image: url('../images/motorcycle-small.jpeg');
+    }
 }
 
 /* Tablets */
