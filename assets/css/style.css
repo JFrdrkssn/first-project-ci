@@ -238,6 +238,23 @@ body {
     align-items: flex-start;
 }
 
+/* Ride page */
+
+/* Photo by Harley-Davidson from Unsplash */
+.ride-image {
+    background-image: url('../images/ride.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    border: 1px rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
 /* Footer */
 
 .footer-wrapper {
