@@ -361,17 +361,33 @@ body {
 
 /* Phones */
 @media screen and (max-width: 500px) {
+    .header-wrapper {
+        flex-direction: row;
+    }
+
     .footer-wrapper {
         font-size: 65%;
     }
 }
 
-@media screen and (max-width: 438px) {
+@media screen and (max-width: 439px) {
+    .header-wrapper {
+        font-size: 60%;
+        flex-direction: column;
+    }
+
+    #navbar {
+        margin: 0 0 8px 0;
+    }
+
+    #navbar li {
+        padding: 0 4px 8px 4px;
+    }
 
     .text-center,
     .text-left,
     .form {
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .footer-wrapper {
