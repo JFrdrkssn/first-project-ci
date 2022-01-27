@@ -45,7 +45,7 @@ body {
     background-color: rgb(27, 27, 27);
 }
 
-.content-position {
+.content-position-left {
     margin: 4% 6%;
     width: 100%;
     display: flex;
@@ -83,7 +83,7 @@ body {
     border-radius: 15px;
     text-align: center;
     padding: 24px 30px;
-    width: fit-content;
+    width: 50%;
     height: fit-content;
     margin: 2% 0;
 }
