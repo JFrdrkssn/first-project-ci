@@ -370,6 +370,10 @@ body {
         font-size: 85%;
     }
 
+    .text-left {
+        width: 100%;
+    }
+
     .form {
         font-size: 80%;
     }
@@ -377,10 +381,6 @@ body {
 
 /* Breakpoint */
 @media screen and (max-width: 600px) {
-    .text-left {
-        width: 100%;
-    }
-
     .footer-wrapper {
         height: fit-content;
         font-size: 80%;
