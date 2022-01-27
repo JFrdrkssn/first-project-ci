@@ -348,4 +348,9 @@ body {
     .footer-wrapper {
         font-size: 55%;
     }
+
+    .social-networks>li {
+        display: inline;
+        padding: 10px 20px;
+    }
 }
