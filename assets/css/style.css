@@ -137,7 +137,7 @@ body {
 
 /* Photo by Sourav Mishra from Pexels */
 .hero-image {
-    background-image: url('../images/motorcycle.webp');
+    background-image: url('../images/motorcycle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -237,7 +237,7 @@ body {
 
 /* Photo by cottonbro from Pexels */
 .garage-image {
-    background-image: url('../images/garage.webp');
+    background-image: url('../images/garage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -254,7 +254,7 @@ body {
 
 /* Photo by Harley-Davidson from Unsplash */
 .ride-image {
-    background-image: url('../images/ride.webp');
+    background-image: url('../images/ride.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -353,17 +353,17 @@ body {
 
     /* Photo by Sourav Mishra from Pexels */
     .hero-image {
-        background-image: url('../images/motorcycle-small.webp');
+        background-image: url('../images/motorcycle-small.jpg');
     }
 
     /* Photo by cottonbro from Pexels */
     .garage-image {
-        background-image: url('../images/garage-small.webp');
+        background-image: url('../images/garage-small.jpg');
     }
 
     /* Photo by Chris Henry from Unsplash */
     .ride-image {
-        background-image: url('../images/ride-small.webp');
+        background-image: url('../images/ride-small.jpg');
     }
 
     .text-center,
