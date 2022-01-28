@@ -169,7 +169,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - As a Frequent User, I want to check for new group rides and events.
         - The Ride page is updated weekly. This is clearly stated on the Home page.
 
-## **Further Testing**
+### **Further Testing**
 
 - The website was tested on Google Chrome and Safari browsers.
 - The website was viewed on Desktop, iPhone 6 and Galaxy S9.
@@ -179,7 +179,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <img src="assets/screenshots/lighthouse-mobile.png?raw=true" alt="Lighthouse Mobile" style="width: 65%;"/>
 <img src="assets/screenshots/lighthouse-desktop.png?raw=true" alt="Lighthouse Mobile" style="width: 65%;"/>
 
-## **Bugs**
+### **Bugs**
 
 - Navbar didn't stick to the right when changing screen width.
     - Fix: Replace absolute size values with percentage values for background images.
@@ -190,6 +190,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - Initially, percentage values for font-sizes was replaced with em values. This did nothing.
 - Background images was not loading in Safari.
     -Fix: Change the file extensions form webp to jpg.
+
+---
+## **Deployment**
+---
+
+### **GitHub Pages**
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate "Pages" under the "Code and automation" Section.
+4. Under "Source", click the dropdown called "None" and select "main" branch.
+5. A link to the site will be displayed under the "GitHub Pages" title.
+6. Wait for the background to turn green.
+7. The site is now published!
 
 ---
 ## **Credits**
