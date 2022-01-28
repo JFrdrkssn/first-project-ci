@@ -4,28 +4,28 @@
 
 p {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 160%;
+    font-size: 1.6em;
     color: #f3eaea;
     font-weight: 200;
 }
 
 h1 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 380%;
+    font-size: 3.8em;
     text-transform: uppercase;
     font-weight: 400;
 }
 
 h2 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 260%;
+    font-size: 2.6em;
     color: #f3eaea;
     font-weight: 400;
 }
 
 #navbar {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 280%;
+    font-size: 2.8em;
 }
 
 .contact-info {
@@ -163,7 +163,7 @@ body {
 
 .submit-form {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 150%;
+    font-size: 1.5em;
     font-weight: 200;
     color: #f3eaea;
 }
@@ -173,7 +173,7 @@ body {
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     font-family: inherit;
-    font-size: 80%;
+    font-size: 0.8em;
 }
 
 .text-input:hover {
@@ -189,7 +189,7 @@ body {
 
 .submit-button {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 120%;
+    font-size: 1.2em;
     font-weight: 400;
     margin: 10px 10px 0 10px;
     text-align: center;
@@ -212,7 +212,7 @@ body {
 
 .reset-button {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 120%;
+    font-size: 1.2em;
     font-weight: 400;
     margin: 20px 10px 0 5px;
     text-align: center;
@@ -307,7 +307,7 @@ body {
 
 .social-networks i {
     color: #f3eaea;
-    font-size: 200%;
+    font-size: 2em;
 }
 
 .social-networks i:hover {
@@ -325,7 +325,7 @@ body {
     }
 
     .footer-wrapper {
-        font-size: 90%;
+        font-size: 0.9em;
     }
 
 }
@@ -333,7 +333,7 @@ body {
 /* Smaller background images, navbar and text */
 @media screen and (max-width: 764px) {
     .header-wrapper {
-        font-size: 85%;
+        font-size: 0.85em;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
@@ -368,7 +368,7 @@ body {
 
     .text-center,
     .text-left {
-        font-size: 85%;
+        font-size: 0.85em;
     }
 
     .text-left {
@@ -376,7 +376,7 @@ body {
     }
 
     .form {
-        font-size: 80%;
+        font-size: 0.8em;
     }
 }
 
@@ -384,7 +384,7 @@ body {
 @media screen and (max-width: 600px) {
     .footer-wrapper {
         height: fit-content;
-        font-size: 75%;
+        font-size: 0.75em;
     }
 }
 
@@ -395,14 +395,14 @@ body {
     }
 
     .footer-wrapper {
-        font-size: 55%;
+        font-size: 0.55em;
     }
 }
 
 /* Breakpoint */
 @media screen and (max-width: 439px) {
     .header-wrapper {
-        font-size: 60%;
+        font-size: 0.6em;
         flex-direction: column;
     }
 
@@ -417,11 +417,11 @@ body {
     .text-center,
     .text-left,
     .form {
-        font-size: 60%;
+        font-size: 0.6em;
     }
 
     .footer-wrapper {
-        font-size: 55%;
+        font-size: 0.6em;
     }
 
     .social-networks>li {
