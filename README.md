@@ -150,20 +150,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### **[Sourav Mishra, Pexels](https://www.pexels.com/@photosbymishra)**
 
-<img src="assets/images/motorcycle.webp" alt="Photo by Sourav Mishra" style="width: 65%;"/>
+[Photo by Sourav Mishra, used on Home page](https://www.pexels.com/photo/city-people-street-graffiti-4515543/)
 
-<img src="assets/images/motorcycle-small.webp" alt="Photo by Sourav Mishra" style="height: 300px;"/>
+[Photo by Sourav Mishra, used on Home page for mobile and tablet](https://www.pexels.com/photo/road-street-vehicle-vintage-7511825/)
+
 
 ### **[cottonbro, Pexels](https://www.pexels.com/@cottonbro)**
 
-<img src="assets/images/garage.webp" alt="Photo by cottonbro" style="width: 65%;"/>
+[Photo by cottonbro, used on Garage page](https://www.pexels.com/photo/black-and-gray-audio-mixer-4488660/)
 
-<img src="assets/screenshots/garage-small.webp" alt="Photo by cottonbro" style="height: 300px;"/>
+[Photo by cottonbro, used on Garage page for mobile and tablet](https://www.pexels.com/photo/white-and-red-plastic-container-on-black-table-4488651/)
+
 
 ### **[Chris Henry, Unsplash](https://unsplash.com/@chrishenryphoto)**
 
-<img src="assets/images/ride-small.webp" alt="Photo by Chris Henry" style="width: 40%;"/>
+[Photo by Chris Henry, used on Ride page for mobile and tablet](https://unsplash.com/photos/pO6Zu1tRUlA)
 
 ### **[Harley-Davidson, Unsplash](https://unsplash.com/@harleydavidson)**
 
-<img src="assets/images/ride.webp" alt="Photo by Harley-Davidson" style="width: 65%;"/>
+[Photo by Harley-Davidson, used on Ride page](https://unsplash.com/photos/LUWVMSyNsR4)
